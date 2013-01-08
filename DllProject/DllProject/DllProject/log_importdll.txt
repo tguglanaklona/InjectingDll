@@ -1,0 +1,3 @@
+Begin
+SymbolCounter OK full
+End

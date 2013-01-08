@@ -1,0 +1,4 @@
+hWnd = 0x34037c
+lpText = A number of entries of symbol 'a' in string = 1, function 2 returns 25
+lpCaption = caption
+uType = 0

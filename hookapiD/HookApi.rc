@@ -1,0 +1,214 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\HookApi.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOG DISCARDABLE  0, 0, 229, 117
+STYLE WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "HookApi - MessageBeep() patch"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Method &1",IDC_METHOD1,7,7,50,14,BS_FLAT
+    PUSHBUTTON      "Method &2",IDC_METHOD2,7,28,50,14,BS_FLAT
+    PUSHBUTTON      "Method &3",IDC_METHOD3,7,51,50,14,BS_FLAT
+    PUSHBUTTON      "Method &4",IDC_METHOD4,79,7,50,14,BS_FLAT
+    PUSHBUTTON      "Method &5",IDC_METHOD5,79,28,50,14,BS_FLAT
+    PUSHBUTTON      "&Original",IDC_METHOD0,79,51,50,14,BS_FLAT
+    GROUPBOX        "&Type",IDC_STATIC,7,73,215,37,BS_FLAT
+    CONTROL         "&Beep",IDC_BEEP,"Button",BS_AUTORADIOBUTTON | BS_FLAT | 
+                    WS_GROUP,22,83,33,10
+    CONTROL         "&Asterisk",IDC_ASTERISK,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,22,96,40,10
+    CONTROL         "&Exclamation",IDC_EXCLAMATION,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,79,83,53,10
+    CONTROL         "&Question",IDC_QUESTION,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,79,96,43,10
+    CONTROL         "&Hand",IDC_HAND,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    145,83,33,10
+    CONTROL         "O&K",IDC_OK,"Button",BS_AUTORADIOBUTTON | BS_FLAT,145,
+                    96,25,10
+    DEFPUSHBUTTON   "Close",IDCANCEL,172,7,50,14,BS_FLAT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        VERTGUIDE, 22
+        VERTGUIDE, 79
+        VERTGUIDE, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 110
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "test1 Module\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "TEST1\0"
+            VALUE "LegalCopyright", "Copyright 2001\0"
+            VALUE "OriginalFilename", "HookApi.exe\0"
+            VALUE "ProductName", "HookApi Module\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "OLESelfRegister", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_ASTERISK            WAVE    DISCARDABLE     "res\\Asterisk.wav"
+IDR_DEFAULT             WAVE    DISCARDABLE     "res\\default.wav"
+IDR_EXCLAMATION         WAVE    DISCARDABLE     "res\\Exclamation.wav"
+IDR_HAND                WAVE    DISCARDABLE     "res\\hand.wav"
+IDR_QUESTION            WAVE    DISCARDABLE     "res\\question.wav"
+IDR_BEEP                WAVE    DISCARDABLE     "res\\beep.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "HookApi"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
